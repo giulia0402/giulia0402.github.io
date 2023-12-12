@@ -22,8 +22,7 @@ author: Juan Pablo Martinez Benedetti, Giulia Dohy, Geza Soldati, Raphaël Aubru
 navbar-links:
   About Us: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - The data: "https://www.cs.cmu.edu/~ark/personas/"
 
 ################
 # --- Logo --- #
