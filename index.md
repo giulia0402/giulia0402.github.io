@@ -1,14 +1,14 @@
 ---
 layout: home
-title: Geobrain project Lausanne
-subtitle: Providing an atlas of the brain in Lausanne
-cover-img: "/assets/img/temp.webp"
+title: How much do people like fantastic movies
+subtitle: Providing an analysis of fictionnal movies through time
+cover-img: /assets/img/ciel-nocturne-brille-ia-generative-silhouette-mystique-galaxie.jpg
+share-img: /assets/img/ciel-nocturne-brille-ia-generative-silhouette-mystique-galaxie.jpg
 ---
 
 ## Motivation
 
-&nbsp;&nbsp;&nbsp;&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-
+Our project is about blablabla
 &nbsp;&nbsp;&nbsp;&nbsp; Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ## Goal
