@@ -1,6 +1,6 @@
 ---
 layout: home
-title: How much do people like fantastic movies
+title: How much people like fantastic movies
 subtitle: Providing an analysis of fictionnal movies through time
 cover-img: /assets/img/scene-voie-lactee-dans-ia-generative-snowscape.jpg
 share-img: /assets/img/scene-voie-lactee-dans-ia-generative-snowscape.jpg
