@@ -1,7 +1,7 @@
 ---
 layout: post
 title: If we want to add a page
-subtitle: For now : a sample blog post to learn markdown tips
+subtitle: For now a sample blog post to learn markdown tips
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
