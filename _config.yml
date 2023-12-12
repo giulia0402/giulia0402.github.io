@@ -144,7 +144,7 @@ navbar-var-length: false
 
 navbar-img: "/assets/img/bgimage.png"
 footer-img: "/assets/img/bgimage.png"
-page-img: "/assets/img/bgimage.png"
+page-img: "/assets/img/ciel-nocturne-brille-ia-generative-silhouette-mystique-galaxie.jpg"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 mobile-theme-col: "#0085A1"
