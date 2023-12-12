@@ -1,16 +1,11 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About us
+subtitle: Who are we?
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+We are five students from several parts of the world, Juan, Giulia, Geza, Raphaël and Cyril that met in EPFL for a great project. What project? Well this one, you can check out our github: 
+[Visit GitHub](https://github.com/epfl-ada/ada-2023-project-thepiratesofthestreet)
 
-- I rock a great mustache
-- I'm extremely loyal to my family
 
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Our project was part of the 2022 edition of the class “Applied Data Analysis” (CS-401) at EPFL. 
