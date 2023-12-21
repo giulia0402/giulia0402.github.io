@@ -26,10 +26,11 @@ But wait, is this subset representative of all the fiction pieces released durin
 Several bias can be highlighted. First, our subset depends on the classification people made for movies genres. Then, do we miss many fictional movies by selecting only SF and Fantasy movies? Aren’t there others minor fictional genres? Aren’t there hidden fictional movies, only classified for example as drama or action?
 To try to mitigate these biases, we use the IMDB genres classification. We select all the movies classified as SF and Fantasy and merged them with the CMU dataset. In this way a larger part of the CMU movies is integrated in our fictional movies’ subset. It now contains all movies classified as SF and Fantasy by both CMU and IMDB.  
 
-![Genres_distribution](/assets/img/Genres_distribution.png)
+![Genres_distribution](/assets/img/Genres_distribution.png){width=800px}
 
 
 #### Fictional worlds but from which part of the world?
+
 We want to capture people's imagination through fiction. But which people imagination are we trying to decode? The graph below shows where the movies of our fiction subset have been produced. the proportion that this represents of all films produced in each country is also displayed. 
 
 
