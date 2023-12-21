@@ -14,7 +14,7 @@ With the CMU movie summary corpus as the starting point, the first step is to ge
 
 ## Fictional movies
 
-### A bag of fictional movies
+#### A bag of fictional movies
 Goal: To get a subset of fictional movies and their summaries.
 The main information we get to classified movies as fictional and non-fictional is their genres given by the CMU dataset. Let’s have a look at the genre’s distribution. 
 In the CMU dataset, movies can be associated with several genres in particular order of importance. There are more than 300 hundred different genres. The graphs bellow shows the proportion of movies taken in account by selecting only a given number of genres. 
@@ -29,13 +29,13 @@ To try to mitigate these biases, we use the IMDB genres classification. We selec
 ![Genres_distribution](/assets/img/Genres_distribution.png)
 
 
-### Fictional worlds but from which part of the world?
+#### Fictional worlds but from which part of the world?
 We want to capture people's imagination through fiction. But which people imagination are we trying to decode? The graph below shows where the movies of our fiction subset have been produced. the proportion that this represents of all films produced in each country is also displayed. 
 
 
 Our dataset only rounds a small fraction of the films released, which must not be representative of the real bunch of films distributed each year in the world. Even if this is the case, American films will still have a greater weight in our study than films from any other country.
 
-### Time dimension
+#### Time dimension
 Our main object of study is to analyze the evolution of fictional worlds over time. Therefore, our fictional movies dataset must contain enough films released over the entire study period. Below is the number of fictional films released each year and the proportion of the total number of releases that they represent.
 
 
