@@ -203,7 +203,7 @@ PLOT
 
 In the previous sections we learned a lot about how fictional worlds are portrayed by analyzing the topics of fictional movies. Through this, we also saw how the interest of people changed during the last century. But what feelings were conveyed by these fictional movies? To answer this question, we perform sentiment analysis on the movie summaries. First we look at the sentiment of fictional movies compared to non-fictional movies:
 
-[plot: comparison fiction and non-fiction over time]
+![mean_sent](/assets/img/mean_sent.png)
 
 As we can see, fictional movies generally have a lower sentiment score when compared to non-fiction while still being above the neutral score of 0. This could mean that people like to imagine that things are worse than what is observed in reality.
 
@@ -215,7 +215,7 @@ If we take a look at the sentiment of different topics, we see that movies with 
 
 To get indications for why certain topics scored low and others high and how their scores changed over time, we visualize the evolution of sentiment scores of all topics. In the plots, dashed lines indicate that the datapoint following the dashed line is computed with a low number of summaries and their value should be interpreted as highly uncertain.
 
-[plot sentiment of topics over time]
+![Sent_over_time](/assets/img/sentiment_per_topic.png)
 
 Unfortunately, the dataset used did not contain enough summaries to plot meaningful evolutions of sentiment for all topics. Nevertheless, we can extract some interesting information. 
 Movies about outer space started with a high sentiment score and decreased during the period of the cold war. This seems to be unusual, because one would expect a lot of inspirational movies about space exploration during the space race successive moon landing of the americans. 
