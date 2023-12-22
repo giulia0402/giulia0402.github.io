@@ -60,27 +60,7 @@ Number of releases : As we saw before our subset is mainly composed of recent mo
 Summaries length : 
 
 After 1950, the mean number of words in the preprocessed summaries is more stable with a slight increase and variation of around 30 words. This is good news because it means that by performing a topic modeling on each decade after 1950, the results won't be biased by the number of words per summaries.
-<iframe>
-  <html> 
-    
-  <head> 
-      <meta charset="utf-8" /> 
-      <title>JavaScript Timeline</title> 
-      <meta name="viewport"
-            content="width=device-width, 
-                     initial-scale=1" /> 
-      <link rel="stylesheet" 
-            href="style.css" /> 
-  </head> 
-    
-  <body> 
-      <ul class="timeline" 
-          id="menu"></ul> 
-      <script src="script.js"></script> 
-  </body> 
-    
-  </html>
-</iframe>
+
 
 
 
