@@ -182,13 +182,83 @@ To focus our analysis, we now define the topics that we consider to be relevant 
     <td>apocalypse, doomsday, end world, world end, armageddon, post-apocalyptic, apocalyptic, cataclysm, world destruction, human extinction, mass extinction, end of civilization</td>
   </tr>
 </table>
-
-
 </body>
 </html>
 
 As long as one word of a topic appears in a summary, the corresponding movie is considered to belong to this theme. The proportion of topics per year can be computed.
 
+<iframe>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider</title>
+  <style>
+    #image-container {
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    button {
+      margin: 10px;
+      padding: 5px 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="image-container">
+  <img id="current-image" src="" alt="Image">
+</div>
+
+<button onclick="prevImage()">Previous</button>
+<button onclick="nextImage()">Next</button>
+
+<script>
+  // Array of image URLs
+  const images = [
+    'assets/img/b50s.png',
+    'assets/img/50s.png',
+    'assets/img/60s.png',
+    'assets/img/70s.png',
+    'assets/img/80s.png',
+    'assets/img/90s.png',
+    'assets/img/00s.png',
+    'assets/img/05s.png',
+    'assets/img/10s.png',
+    
+  ];
+
+  let currentIndex = 0;
+  const currentImageElement = document.getElementById('current-image');
+
+  // Function to show the current image
+  function showImage() {
+    currentImageElement.src = images[currentIndex];
+  }
+
+  // Function to go to the previous image
+  function prevImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    showImage();
+  }
+
+  // Function to go to the next image
+  function nextImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    showImage();
+  }
+
+  // Initial display
+  showImage();
+</script>
+
+</body>
+</html>
+</iframe>
 PLOT
 ![TopicsCount](/assets/img/TopicsCount.svg)
 
