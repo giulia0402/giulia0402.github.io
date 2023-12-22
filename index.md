@@ -190,6 +190,7 @@ To focus our analysis, we now define the topics that we consider to be relevant 
 As long as one word of a topic appears in a summary, the corresponding movie is considered to belong to this theme. The proportion of topics per year can be computed.
 
 PLOT
+![TopicsCount](/assets/img/TopicsCount.svg)
 
 ## Sentiment Analysis
 
