@@ -22,18 +22,33 @@ In the CMU dataset, movies can be associated with several genres in particular o
 
 ![Genres_distribution](/assets/img/genres_distribution.svg)
 
+Ones can see that the 40 most represented genres cover more than 80% of the whole movie dataset.
+Among these 40 selected genres, science fiction and fantasy were chosen as the only ones clearly associated with fiction.
+This gives us a first subset of 5366 fictional movies corresponding to 6.56% of the whole movies
+But wait, is this subset representative of all the fiction pieces released during the last 100 years?
+Several biases can be highlighted. First, our subset depends on the classification people made for movie genres. Then, do we miss many fictional movies by selecting only SF and Fantasy movies? Aren’t there other minor fictional genres? Aren’t there hidden fictional movies, only classified for example as drama or action?
+
+To try to mitigate these biases, we use the IMDB genres classification. We selected all the movies classified as SF and Fantasy and merged them with the CMU dataset. In this way a larger part of the CMU movies is integrated in our fictional movies’ subset. It now contains all movies classified as SF and Fantasy by both CMU and IMDB (ie.  6506 fictional movies corresponding to 7,9 % of the whole movies)
+
+
 
 #### Fictional worlds but from which part of the world?
 
-We want to capture people's imagination through fiction, but which of people's imagination are we trying to decode? The graph below shows where the movies of our fiction subset have been produced. The proportion that this represents of all films produced in each country is also displayed. 
+We want to capture people's imagination through fiction. But which people's imagination are we trying to decode? The graph below shows where the movies of our fiction subset have been produced. the proportion that this represents of all films produced in each country is also displayed. 
 
 ![country_distribution](/assets/img/CountryRef.svg)
+
 Our dataset only rounds a small fraction of the films released, which must not be representative of the real bunch of films distributed each year in the world. Even if this is the case, American films will still have a greater weight in our study than films from any other country.
 
 #### Time dimension
-Our main object of study is to analyze the evolution of fictional worlds over time. Therefore, our fictional movies dataset must contain enough films released over the entire study period. Below, is the number of fictional films released each year and the proportion of the total number of releases that they represent.
+
+Our main object of study is to analyze the evolution of fictional worlds over time. Therefore, our fictional movies dataset must contain enough films released over the entire study period. Below is the number of movie releases per year. 
 
 ![TimeMovies](/assets/img/FictionalMovieRelease.svg)
+
+
+In recent years, there have been many more films released. The threat is that topics of recent films will overwhelm those of older films because they are much more represented in the data. In the rest of our story, you'll discover how we've tried navigating the  pitfalls and paint a picture of the evolution of the fictional worlds that have accompanied us over the last 100 years.
+
 
 
 ## Detecting Fictional topics
