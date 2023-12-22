@@ -1,92 +1,59 @@
-/* Styling universal selector */
-* { 
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
+const timelineArray = [ 
+	{ 
+		year: "1995", 
+		eventt: 
+"JavaScript Introduced by Brendan Eich at Netscape", 
+	}, 
+	{ 
+		year: "1997", 
+		eventt: 
+"ECMAScript created to Standardize JavaScript", 
+	}, 
+	{ 
+		year: "1999", 
+		eventt: 
+"ECMAScript3: Introduction of RegEx, try-catch", 
+	}, 
+	{ 
+		year: "2009", 
+		eventt: 
+"ECMAScript5: strict mode, Object method", 
+	}, 
+	{ 
+		year: "2015", 
+		eventt: 
+"ES6: introduced classes, Arraow functons, let/const variables ", 
+	}, 
+	{ 
+		year: "2016 Onwards", 
+		eventt: 
+"introducing features like async/await, spread/rest operators etc.", 
+	}, 
+]; 
+
+function gfg() { 
+	timelineArray.map((e, i) => { 
+		let clss = "right"; 
+		let dot = "dotRight"; 
+		if (i % 2 == 0) { 
+			clss = "left"; 
+			dot = "dotLeft"; 
+		} 
+		const year = document.createElement("h3"); 
+		year.innerText = e.year; 
+		const eventt = document.createElement("p"); 
+		eventt.innerText = e.eventt; 
+		const item = document.createElement("div"); 
+		item.appendChild(year); 
+		item.appendChild(eventt); 
+		item.classList.add("card"); 
+		const contain = document.createElement("div"); 
+		const li = document.createElement("li"); 
+		contain.classList.add(dot); 
+		contain.appendChild(item); 
+		li.appendChild(contain); 
+		li.classList.add(clss); 
+		document.getElementById("menu").appendChild(li); 
+	}); 
 } 
-  
-/* Style body element */
-body { 
-    min-height: 100vh; 
-    display: flex; 
-    align-items: center; 
-    text-align: center; 
-    justify-content: center; 
-    background: hsl(113, 19%, 18%); 
-    font-family: "Poppins", sans-serif; 
-} 
-  
-/* Styling card container */
-.card { 
-    max-width: 20rem; 
-    background: #e5e9f3; 
-    margin: 0 1rem; 
-    padding: 1rem; 
-    box-shadow: 0 0 5px rgba(191, 189, 189, 0.2); 
-    width: 95%; 
-    border-radius: 0.5rem; 
-    margin: 2%; 
-    margin-bottom: 10%; 
-} 
-  
-.timeline { 
-    position: relative; 
-    max-width: 1200px; 
-    margin: 0 auto; 
-} 
-  
-  
-.timeline::after { 
-    content: ""; 
-    position: absolute; 
-    width: 6px; 
-    background-color: white; 
-    top: 28px; 
-    bottom: 75px; 
-    left: 50%; 
-    margin-left: -3px; 
-} 
-  
-ul { 
-    list-style: none; 
-} 
-  
-.right { 
-    text-align: left; 
-    position: relative; 
-    right: -185px; 
-    list-style: none; 
-} 
-  
-.left { 
-    text-align: right; 
-    position: relative; 
-    left: -185px; 
-    list-style: none; 
-} 
-  
-.dotRight::after { 
-    content: ""; 
-    position: absolute; 
-    width: 22px; 
-    height: 22px; 
-    left: -40px; 
-    background-color: white; 
-    border: 4px dashed #559cff; 
-    top: 20px; 
-    border-radius: 50%; 
-    z-index: 1; 
-} 
-  
-.dotLeft::after { 
-    content: ""; 
-    position: absolute; 
-    width: 22px; 
-    height: 22px; 
-    right: -40px; 
-    background-color: white; 
-    border: 4px dashed #559cff; 
-    top: 20px; 
-    border-radius: 50%; 
-    z-index: 1; 
-}
+gfg();
