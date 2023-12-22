@@ -13,6 +13,5 @@ What project? Well this one, you can check out our github:
 
 ![drapeau_pirate](/assets/img/drapeau_pirate.png)
 
-<img src="drapeau_pirate.png" alt="drapeau_pirate" width="200"/>
 
 Our project was part of the 2023 edition of the class “Applied Data Analysis” (CS-401) at EPFL. 
