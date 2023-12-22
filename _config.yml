@@ -21,7 +21,8 @@ author: ThePiratesOfTheStreet
 navbar-links:
   About Us: "aboutme"
   Resources:
-    - The data: "https://www.cs.cmu.edu/~ark/personas/"
+    - The CMU data: "https://www.cs.cmu.edu/~ark/personas/"
+    - The IMDB data: "https://developer.imdb.com/non-commercial-datasets/"
 
 ################
 # --- Logo --- #
