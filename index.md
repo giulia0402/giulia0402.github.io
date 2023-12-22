@@ -71,7 +71,7 @@ A bias research ?
   
 * Summaries length : Summaries with a lot of words will give more weight to minor topics that may be not relevant for our study. The graph below shows the average number of words in preprocessed summaries over time . After 1950, the mean number of words in the preprocessed summaries is more stable with a slight increase and variation of around 30 words. 
 
-![processed_words](/assets/img/count_processed_words)
+![processed_words](/assets/img/count_processed_words.svg)
 
 Finally, our subset isn’t perfect but by performing an LDA on it, we obtain the following results.
 
