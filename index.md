@@ -26,7 +26,7 @@ But wait, is this subset representative of all the fiction pieces released durin
 Several bias can be highlighted. First, our subset depends on the classification people made for movies genres. Then, do we miss many fictional movies by selecting only SF and Fantasy movies? Aren’t there others minor fictional genres? Aren’t there hidden fictional movies, only classified for example as drama or action?
 To try to mitigate these biases, we use the IMDB genres classification. We select all the movies classified as SF and Fantasy and merged them with the CMU dataset. In this way a larger part of the CMU movies is integrated in our fictional movies’ subset. It now contains all movies classified as SF and Fantasy by both CMU and IMDB.  
 
-![Genres_distribution](/assets/img/Genres_distribution.png){width=800px}
+![Genres_distribution](/assets/img/Genres_distribution.png)
 
 
 #### Fictional worlds but from which part of the world?
@@ -39,6 +39,8 @@ Our dataset only rounds a small fraction of the films released, which must not b
 #### Time dimension
 Our main object of study is to analyze the evolution of fictional worlds over time. Therefore, our fictional movies dataset must contain enough films released over the entire study period. Below is the number of fictional films released each year and the proportion of the total number of releases that they represent.
 
+
+![avg_topics](/assets/img/Topic_avg.png)
 
 
 
