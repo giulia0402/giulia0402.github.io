@@ -198,9 +198,7 @@ To focus our analysis, we now define the topics that we consider to be relevant 
 </body>
 </html>
 
-As long as one word of a topic appears in a summary, the corresponding movie is considered to belong to this theme. The number of  topics per year can be computed and can be related to the number of fictional releases. The results are shown on the plot below. 
-A topic curve above the total fictional movies curve means that the specified topic is more represented on the period and vice versa.
-So what do those results tell us ?
+As long as one word of a topic appears in a summary, the corresponding movie is considered to belong to this theme. The number of topics per year can be computed and can be related to the number of fictional movies released in the same time period. The results are shown on the plot below. A topic curve (blue) above the total fictional movies curve (yellow) means that the specified topic is more represented on the period and vice versa.
 
 
 ![TopicsCount](/assets/img/TopicsCount.svg)
