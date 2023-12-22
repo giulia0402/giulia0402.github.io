@@ -63,7 +63,48 @@ A bias research ?
   
 * Summaries length : Summaries with a lot of words will give more weight to minor topics that may be not relevant for our study. The graph below shows the average number of words in preprocessed summaries over time . After 1950, the mean number of words in the preprocessed summaries is more stable with a slight increase and variation of around 30 words. 
 
-After 1950, the mean number of words in the preprocessed summaries is more stable with a slight increase and variation of around 30 words. This is good news because it means that by performing a topic modeling on each decade after 1950, the results won't be biased by the number of words per summaries.
+INCLUDE PLOT
+
+Finally, our subset isn’t perfect but by performing an LDA on it, we obtain the following results.
+
+INCLUDE TOPICS PLOTS
+
+What (interesting) results ! 
+
+Some fictional themes clearly stand out while others are more random. Regarding the random process of the LDA method, it is very likely that some fictional topics remain hidden. 
+
+### Topics over time
+
+We have a first idea of what fictional worlds look like. But how have they evolved ? Have any of them disappeared? 
+
+Time is split in periods where the number of movies is comparable.
+
+PLOT
+
+PLOT
+
+The above heatmap shows some interesting  results. We can spot trends for some fictional topics.
+
+* Topic 11 (Earth, space, ship, planet, alien, destroy, earth earth, discover, crew, land) which we could name outer space has a peak in the 50’s and 60’s. It corresponds exactly to the beginning of space exploration (1947 : first animal in space,  1961 : first human spaceflight, 1969:First human on the moon).
+  
+* Topic 26 (Scientist, experiment, mad, laboratory, lab, human, create, serum, mad scientist, work) shows a clear decrease over the years.
+
+In our first LDA topic modeling, all movies were considered which come with the mentioned biases. Detected topics are those corresponding to the most recent movies. 
+
+To have a better idea of the evolution of topics over time, the first idea was to perform an LDA topic modeling for each defined period. The set of preprocessed fictional summaries is split in the different periods of time. Number of tokens per summary normalization resulting from it is pretty satisfying as shown on the graph below. 
+
+PLOT
+
+PLOT
+
+This is nice but returned topics for each period are different(ie:different word distribution) and it is tricky to link topics over different periods. 
+
+PLOT
+
+LDA topics are not clearly defined (words inconsistency in topics and  topics mixing) and we probably miss some topics, eclipsed by bigger ones.  However, LDA topic modeling helped us to spot fictional topics and some trends in the evolution over time.
+
+To focus our analysis, we now define the topics that we consider to be relevant ourselves.
+
 
 ![Average preprocessed sumaries length](/assets/img/Genres_distribution.png)
 
@@ -146,5 +187,12 @@ After 1950, the mean number of words in the preprocessed summaries is more stabl
 </body>
 </html>
 
+As long as one word of a topic appears in a summary, the corresponding movie is considered to belong to this theme. The proportion of topics per year can be computed.
 
+PLOT
+
+## Sentiment Analysis
+
+
+## Conclusion
 
