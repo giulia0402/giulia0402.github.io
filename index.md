@@ -8,16 +8,17 @@ share-img: /assets/img/scene-voie-lactee-dans-ia-generative-snowscape.jpg
 
 ## Abstract
 
-From mythology to science fiction, human beings have always invented and told stories. In the last century, cinematography has become one of the most prominent forms of storytelling, with content ranging from real world documentaries to highly imaginative tales. 
+From mythology to science fiction, human beings have always told stories. Due to major advancements in technology during the last century, cinematography has become one of the most prominent forms of storytelling, with content ranging from real world documentaries to highly imaginative tales.
 
-All types of fiction invite their audience to explore real ideas, issues, or possibilities using an imaginary setting or using something similar to reality, though still distinct from it. In this project, we want to extract movies that fall in the category "speculative fiction" as defined in [Wikipedia](https://en.wikipedia.org/wiki/Speculative_fiction), to distill the content of people's imaginations and their evolution over time. Were robots and android topics more popular before technological advances make them less fictional? Were there more aliens and space movies when occurred the first space missions? Those are questions we will try to answer in this Data story.
+All types of fiction invite their audience to explore real ideas, issues, or possibilities using an imaginary setting or using something similar to reality, though still distinct from it. In this project, we want to extract movies that fall in the category "speculative fiction" as defined in Wikipedia [1], to distill the content of people's imaginations and their evolution over time. Were robots and android topics more popular before technological advances made them less fictional? Were there more aliens and space movies when the first space missions occurred? Those are questions we will try to answer in this Data story.
+
 
 ## Fictional movies
 
 #### A bag of fictional movies
 The first goal is to get a subset of fictional movies and their summaries.
 The main information we get to classify movies as fictional and non-fictional is their genres given by the CMU dataset. Let’s have a look at the genre’s distribution.
-In the CMU dataset, movies can be associated with several genres in particular order of importance. There are more than 300 hundred different genres. The graphs below shows the proportion of movies taken in account by selecting only a given number of genres.
+In the CMU dataset, movies can be associated with several genres in no particular order of importance. There are more than 300 hundred different genres. The graphs below shows the proportion of movies taken in account by selecting only a given number of genres.
 
 
 ![Genres_distribution](/assets/img/genres_distribution.svg)
@@ -28,7 +29,7 @@ This gives us a first subset of 5366 fictional movies corresponding to 6.56% of 
 But wait, is this subset representative of all the fiction pieces released during the last 100 years?
 Several biases can be highlighted. First, our subset depends on the classification people made for movie genres. Then, do we miss many fictional movies by selecting only SF and Fantasy movies? Aren’t there other minor fictional genres? Aren’t there hidden fictional movies, only classified for example as drama or action?
 
-To try to mitigate these biases, we use the IMDB genres classification. We selected all the movies classified as SF and Fantasy and merged them with the CMU dataset. In this way a larger part of the CMU movies is integrated in our fictional movies’ subset. It now contains all movies classified as SF and Fantasy by both CMU and IMDB (ie.  6506 fictional movies corresponding to 7,9 % of the whole movies)
+To try to mitigate these biases, we use the IMDB genres classification. We selected all the movies classified as SF and Fantasy and merged them with the CMU dataset. In this way a larger part of the CMU movies is integrated in our fictional movies’ subset. It now contains all movies classified as SF and Fantasy by  CMU or IMDB (ie.  6506 fictional movies corresponding to 7,9 % of the whole movies)
 
 
 
@@ -105,6 +106,7 @@ To have a better idea of the evolution of topics over time, the first idea was t
 
 ![tokens_time](/assets/img/Tokens_time.png)
 
+Here are the results for 2 periods.
 ![60s](/assets/img/Juan60.png)
 ![2000](/assets/img/Juan2000.png)
 
@@ -231,7 +233,8 @@ Just like in the direct comparison of topic sentiments, magic movies score high.
 
 ## Conclusion
 
-Our dive in people’s imagination comes to an end 🥺.
+Our dive in people’s imagination comes to an end. 
 
-We dealt with a small fictional movie summaries sample containing mainly recent occidental creations while Imagination breath caresses countless other fields.
-However, while trying to avoid as many pitfalls as possible, it has been possible to emphasize several fiction themes and their evolution over time. We saw the emergence of themes related to computers and the peak of outer space related movies at the dawn of space exploration.  Imagination is an extension of reality. 
+We dealt with a small fictional movie summary sample containing mainly recent creations from northern america and europe, not encompassing the vastness of human imagination.
+
+However, while trying to avoid as many pitfalls as possible, it has been possible to emphasize several fiction themes and their evolution over time. We saw the emergence of themes related to computers, confirmed the uprising of outer space related movies at the dawn of space exploration and we observed the fascination people have for magic. Imagination is an extension of reality!
