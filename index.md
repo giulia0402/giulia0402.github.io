@@ -98,7 +98,7 @@ The above heatmap shows some interesting  results. We can spot trends for some f
 
 * Topic 11 (Earth, space, ship, planet, alien, destroy, earth earth, discover, crew, land) which we could name outer space has a peak in the 50’s and 60’s. It corresponds exactly to the beginning of space exploration (1947 : first animal in space,  1961 : first human spaceflight, 1969:First human on the moon).
   
-* Topic 26 (Scientist, experiment, mad, laboratory, lab, human, create, serum, mad scientist, work) shows a clear decrease over the years.
+* Topic 10 (Scientist, experiment, mad, laboratory, lab, human, create, body) shows a clear decrease over the years.
 
 In our first LDA topic modeling, all movies were considered which come with the mentioned biases. Detected topics are those corresponding to the most recent movies. 
 
@@ -118,7 +118,7 @@ This is nice but returned topics for each period are different(ie:different word
 
 LDA topics are not clearly defined (words inconsistency in topics and  topics mixing) and we probably miss some topics, eclipsed by bigger ones.  However, LDA topic modeling helped us to spot fictional topics and some trends in the evolution over time.
 
-To focus our analysis, we now define the topics that we consider to be relevant ourselves.
+To focus our analysis, we now define the topics that we consider to be relevant ourselves based on the LDA results.
 
 
 #### Topic key words
@@ -147,12 +147,11 @@ To focus our analysis, we now define the topics that we consider to be relevant 
 <body>
 
 
-<h2>Themes</h2>
 
 
 <table>
   <tr>
-    <th>Category</th>
+    <th>Themes</th>
     <th>Related Keywords</th>
   </tr>
   <tr>
