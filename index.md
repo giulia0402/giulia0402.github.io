@@ -61,6 +61,84 @@ Summaries length :
 
 After 1950, the mean number of words in the preprocessed summaries is more stable with a slight increase and variation of around 30 words. This is good news because it means that by performing a topic modeling on each decade after 1950, the results won't be biased by the number of words per summaries.
 
+<html>
+<head>
+  <style>
+    table {
+      font-family: Arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+
+    th, td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+
+<h2>Themes</h2>
+
+
+<table>
+  <tr>
+    <th>Category</th>
+    <th>Related Keywords</th>
+  </tr>
+  <tr>
+    <td>Outer Space</td>
+    <td>alien, UFO, extraterrestrial, space, spaceship, outerspace</td>
+  </tr>
+  <tr>
+    <td>Science</td>
+    <td>scientist, science, researcher, research, experiment, experimentation, laboratory</td>
+  </tr>
+  <tr>
+    <td>Government</td>
+    <td>government, society, politics, regime, council</td>
+  </tr>
+  <tr>
+    <td>Creatures</td>
+    <td>creatures, monsters, vampires</td>
+  </tr>
+  <tr>
+    <td>Robots</td>
+    <td>robot, droid, cyborg</td>
+  </tr>
+  <tr>
+    <td>Digital</td>
+    <td>computer, artificial intelligence, cyber, virtual reality, cyberspace, programmer, hacking, digital</td>
+  </tr>
+  <tr>
+    <td>Magic</td>
+    <td>magic, sorcerer, wizard, witchcraft, spell, enchantment, sorcery, witch, mage, mystical</td>
+  </tr>
+  <tr>
+    <td>War</td>
+    <td>war, battle, conflict, combat, military, army, warfare, soldier</td>
+  </tr>
+  <tr>
+    <td>Time Travel</td>
+    <td>time travel, travel time, temporal displacement, time dilation, time machine, temporal journey, time loop, time manipulation, temporal paradox, time warp</td>
+  </tr>
+  <tr>
+    <td>Apocalypse</td>
+    <td>apocalypse, doomsday, end world, world end, armageddon, post-apocalyptic, apocalyptic, cataclysm, world destruction, human extinction, mass extinction, end of civilization</td>
+  </tr>
+</table>
+
+
+</body>
+</html>
 
 
 
