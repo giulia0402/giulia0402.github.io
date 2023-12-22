@@ -76,7 +76,7 @@ A bias research ?
 
 Finally, our subset isn’t perfect but by performing an LDA on it, we obtain the following results.
 
-![topics](/assets/img/TopNwords.svg)
+![topics](/assets/img/topNwords.svg)
 
 What (interesting) results ! 
 
