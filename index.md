@@ -26,21 +26,20 @@ But wait, is this subset representative of all the fiction pieces released durin
 Several bias can be highlighted. First, our subset depends on the classification people made for movies genres. Do we miss many fictional movies by selecting only SF and Fantasy movies? Aren’t there others minor fictional genres? Aren’t there hidden fictional movies, only classified for example as drama or action?
 To try to mitigate these biases, we also use the IMDB genres classification. We select all the movies classified as SF and Fantasy and merged them with the CMU dataset. In this way a larger part of the CMU movies is integrated in our fictional movies’ subset: it now contains all movies classified as SF and Fantasy by both CMU and IMDB.  
 
-![Genres_distribution](/assets/img/Genres_distribution.png)
+![Genres_distribution](/assets/img/genres_distribution.svg)
 
 
 #### Fictional worlds but from which part of the world?
 
 We want to capture people's imagination through fiction, but which of people's imagination are we trying to decode? The graph below shows where the movies of our fiction subset have been produced. The proportion that this represents of all films produced in each country is also displayed. 
 
-
+![country_distribution](/assets/img/CountryRef.svg)
 Our dataset only rounds a small fraction of the films released, which must not be representative of the real bunch of films distributed each year in the world. Even if this is the case, American films will still have a greater weight in our study than films from any other country.
 
 #### Time dimension
 Our main object of study is to analyze the evolution of fictional worlds over time. Therefore, our fictional movies dataset must contain enough films released over the entire study period. Below, is the number of fictional films released each year and the proportion of the total number of releases that they represent.
 
-
-![avg_topics](/assets/img/Topic_avg.png)
+![TimeMovies](/assets/img/FictionalMovieRelease.svg)
 
 
 ## Detecting Fictional topics
@@ -67,7 +66,7 @@ INCLUDE PLOT
 
 Finally, our subset isn’t perfect but by performing an LDA on it, we obtain the following results.
 
-INCLUDE TOPICS PLOTS
+![avg_topics](/assets/img/Topic_avg.png)
 
 What (interesting) results ! 
 
