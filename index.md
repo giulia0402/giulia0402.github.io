@@ -16,15 +16,9 @@ All types of fiction invite their audience to explore real ideas, issues, or pos
 
 #### A bag of fictional movies
 Goal: To get a subset of fictional movies and their summaries.
-The main information we get to classify movies as fictional and non-fictional is their genres given by the CMU dataset. Let’s have a look at the genre’s distribution. 
-In the CMU dataset, movies can be associated with several genres in particular order of importance: there are more than 300 hundred different genres! The graphs bellow display the proportion of movies taken in account by selecting only a given number of genres. 
+The main information we get to classify movies as fictional and non-fictional is their genres given by the CMU dataset. Let’s have a look at the genre’s distribution.
+In the CMU dataset, movies can be associated with several genres in particular order of importance. There are more than 300 hundred different genres. The graphs below shows the proportion of movies taken in account by selecting only a given number of genres
 
-Ones can see that the 40 most represented genres cover more than 98,37% of the whole movie dataset. (à verifier !)
-Among these 40 selected genres, science fiction and fantasy were chosen as the only ones clearly associated with fiction.
-This gives us a first subset of 5366 fictional movies corresponding to 6.56% of the whole movies.
-But wait, is this subset representative of all the fiction pieces released during the last 100 years?
-Several bias can be highlighted. First, our subset depends on the classification people made for movies genres. Do we miss many fictional movies by selecting only SF and Fantasy movies? Aren’t there others minor fictional genres? Aren’t there hidden fictional movies, only classified for example as drama or action?
-To try to mitigate these biases, we also use the IMDB genres classification. We select all the movies classified as SF and Fantasy and merged them with the CMU dataset. In this way a larger part of the CMU movies is integrated in our fictional movies’ subset: it now contains all movies classified as SF and Fantasy by both CMU and IMDB.  
 
 ![Genres_distribution](/assets/img/genres_distribution.svg)
 
@@ -62,7 +56,7 @@ A bias research ?
   
 * Summaries length : Summaries with a lot of words will give more weight to minor topics that may be not relevant for our study. The graph below shows the average number of words in preprocessed summaries over time . After 1950, the mean number of words in the preprocessed summaries is more stable with a slight increase and variation of around 30 words. 
 
-INCLUDE PLOT
+![processed_words](/assets/img/count_processed_words)
 
 Finally, our subset isn’t perfect but by performing an LDA on it, we obtain the following results.
 
