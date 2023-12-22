@@ -75,7 +75,7 @@ A bias research ?
 
 Finally, our subset isn’t perfect but by performing an LDA on it, we obtain the following results.
 
-![avg_topics](/assets/img/Topic_avg.png)
+![topics](/assets/img/TopNWords.svg)
 
 What (interesting) results ! 
 
@@ -87,9 +87,11 @@ We have a first idea of what fictional worlds look like. But how have they evolv
 
 Time is split in periods where the number of movies is comparable.
 
-PLOT
+![topic_time](/assets/img/Topic_time.png)
 
-PLOT
+
+[HEATMAP]
+
 
 The above heatmap shows some interesting  results. We can spot trends for some fictional topics.
 
@@ -101,7 +103,7 @@ In our first LDA topic modeling, all movies were considered which come with the 
 
 To have a better idea of the evolution of topics over time, the first idea was to perform an LDA topic modeling for each defined period. The set of preprocessed fictional summaries is split in the different periods of time. Number of tokens per summary normalization resulting from it is pretty satisfying as shown on the graph below. 
 
-PLOT
+![tokens_time](/assets/img/tokens_time.png)
 
 PLOT
 
@@ -114,8 +116,7 @@ LDA topics are not clearly defined (words inconsistency in topics and  topics mi
 To focus our analysis, we now define the topics that we consider to be relevant ourselves.
 
 
-![Average preprocessed sumaries length](/assets/img/Genres_distribution.png)
-
+#### Topic key words
 <html>
 <head>
   <style>
@@ -193,7 +194,10 @@ To focus our analysis, we now define the topics that we consider to be relevant 
 </body>
 </html>
 
-As long as one word of a topic appears in a summary, the corresponding movie is considered to belong to this theme. The proportion of topics per year can be computed.
+As long as one word of a topic appears in a summary, the corresponding movie is considered to belong to this theme. The number of  topics per year can be computed and can be related to the number of fictional releases. The results are shown on the plot below. 
+A topic curve above the total fictional movies curve means that the specified topic is more represented on the period and vice versa.
+So what do those results tell us ?
+
 
 
 PLOT
