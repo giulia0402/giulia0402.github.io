@@ -75,7 +75,7 @@ A bias research ?
 
 Finally, our subset isn’t perfect but by performing an LDA on it, we obtain the following results.
 
-![topics](/assets/img/TopNWords.svg)
+![topics](/assets/img/TopNwords.svg)
 
 What (interesting) results ! 
 
@@ -90,7 +90,7 @@ Time is split in periods where the number of movies is comparable.
 ![topic_time](/assets/img/Topic_time.png)
 
 
-[HEATMAP]
+![heatmap](/assets/img/Topic_avg.png)
 
 
 The above heatmap shows some interesting  results. We can spot trends for some fictional topics.
@@ -103,7 +103,7 @@ In our first LDA topic modeling, all movies were considered which come with the 
 
 To have a better idea of the evolution of topics over time, the first idea was to perform an LDA topic modeling for each defined period. The set of preprocessed fictional summaries is split in the different periods of time. Number of tokens per summary normalization resulting from it is pretty satisfying as shown on the graph below. 
 
-![tokens_time](/assets/img/tokens_time.png)
+![tokens_time](/assets/img/Tokens_time.png)
 
 PLOT
 
