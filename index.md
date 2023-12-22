@@ -1,6 +1,6 @@
 ---
 layout: home
-title: How much people like fantastic movies
+title: Analysis of fictional worlds through movie summaries
 subtitle: Providing an analysis of fictionnal movies through time
 cover-img: /assets/img/scene-voie-lactee-dans-ia-generative-snowscape.jpg
 share-img: /assets/img/scene-voie-lactee-dans-ia-generative-snowscape.jpg
@@ -8,9 +8,9 @@ share-img: /assets/img/scene-voie-lactee-dans-ia-generative-snowscape.jpg
 
 ## Abstract
 
-From mythology to science fiction, people have always invented stories. The ability to create fiction (defined by the American Heritage Dictionary as creative work whose content is imagined and is not based on real facts) can even be viewed as characteristic of the human race. All types of fiction invite their audience to explore real ideas, issues, or possibilities using an imaginary setting or using something similar to reality, though still distinct from it. In this project, we want to extract movies that fall in the category "speculative fiction" as defined in Wikipedia [1], to distill the content of people's imaginations and their evolution over time.
+From mythology to science fiction, human beings have always invented and told stories. In the last century, cinematography has become one of the most prominent forms of storytelling, with content ranging from real world documentaries to highly imaginative tales. 
 
-With the CMU movie summary corpus as the starting point, the first step is to get a subset of summaries representative of speculative fictional summaries. We approach this first step in two ways: we directly search for the genre of the movies related to speculative fiction in the dataset and hope to improve and extend the classification by training a Naive Bayes model. Once we have the dataset of fictional summaries, we will perform sentimental analysis to study how positive the stories are. To find out what the stories are about, we implement topic modeling with a Latent Dirichlet allocation (LDA) model to identify themes among them.
+All types of fiction invite their audience to explore real ideas, issues, or possibilities using an imaginary setting or using something similar to reality, though still distinct from it. In this project, we want to extract movies that fall in the category "speculative fiction" as defined in Wikipedia [1], to distill the content of people's imaginations and their evolution over time. Were robots and android topics more popular before technological advances make them less fictional? Were there more aliens and space movies when occurred the first space missions? Those are questions we will try to answer in this Data story.
 
 ## Fictional movies
 
@@ -49,17 +49,23 @@ To detect fictional topics, we used a Latent Dirichlet allocation (LDA) on movie
 ### Topic modeling on the fictional subset
 In LDA method summaries are  bags of words and each topic is a probability distribution over words.
 Several manipulations were performed on the summaries in order to optimize the topic detection by keeping the words that carry the most information.
-Word normalization with lemmatization to gather words with close meanings
-Stop words removal   
-Proper nouns removal but keeping locations, events, dates
+* Word normalization with lemmatization to gather words with close meanings
+* Stop words removal   
+* Proper nouns removal but keeping locations, events, dates
+* Non weighted words (ie : A word that appears many times in a summary won’t have a bigger weight than one which just appears one time.)
+  
 This gives us a preprocessed substed of fictional summaries. 
+
 Two LDA parameters have been adjusted to consider a  low number of topics per document and a low number of words per topic. 
 
 A bias research ?
-Number of releases : As we saw before our subset is mainly composed of recent movies that can prevent 
-Summaries length : 
+* Number of releases : As we saw before our subset is mainly composed of recent movies that can prevent
+  
+* Summaries length : Summaries with a lot of words will give more weight to minor topics that may be not relevant for our study. The graph below shows the average number of words in preprocessed summaries over time . After 1950, the mean number of words in the preprocessed summaries is more stable with a slight increase and variation of around 30 words. 
 
 After 1950, the mean number of words in the preprocessed summaries is more stable with a slight increase and variation of around 30 words. This is good news because it means that by performing a topic modeling on each decade after 1950, the results won't be biased by the number of words per summaries.
+
+![Average preprocessed sumaries length](/assets/img/Genres_distribution.png)
 
 <html>
 <head>
