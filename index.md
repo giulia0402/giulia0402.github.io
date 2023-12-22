@@ -10,7 +10,7 @@ share-img: /assets/img/scene-voie-lactee-dans-ia-generative-snowscape.jpg
 
 From mythology to science fiction, human beings have always invented and told stories. In the last century, cinematography has become one of the most prominent forms of storytelling, with content ranging from real world documentaries to highly imaginative tales. 
 
-All types of fiction invite their audience to explore real ideas, issues, or possibilities using an imaginary setting or using something similar to reality, though still distinct from it. In this project, we want to extract movies that fall in the category "speculative fiction" as defined in Wikipedia [1], to distill the content of people's imaginations and their evolution over time. Were robots and android topics more popular before technological advances make them less fictional? Were there more aliens and space movies when occurred the first space missions? Those are questions we will try to answer in this Data story.
+All types of fiction invite their audience to explore real ideas, issues, or possibilities using an imaginary setting or using something similar to reality, though still distinct from it. In this project, we want to extract movies that fall in the category "speculative fiction" as defined in [Wikipedia](https://en.wikipedia.org/wiki/Speculative_fiction), to distill the content of people's imaginations and their evolution over time. Were robots and android topics more popular before technological advances make them less fictional? Were there more aliens and space movies when occurred the first space missions? Those are questions we will try to answer in this Data story.
 
 ## Fictional movies
 
