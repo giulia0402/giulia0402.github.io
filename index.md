@@ -105,11 +105,13 @@ To have a better idea of the evolution of topics over time, the first idea was t
 
 ![tokens_time](/assets/img/Tokens_time.png)
 
-PLOT
+![60s](/assets/img/Juan60.png)
+![2000](/assets/img/Juan2000.png)
+
 
 This is nice but returned topics for each period are different(ie:different word distribution) and it is tricky to link topics over different periods. 
 
-![Raph](/assets/img/Raph.png)
+![Raph](/assets/img/Raph.jpg)
 
 
 LDA topics are not clearly defined (words inconsistency in topics and  topics mixing) and we probably miss some topics, eclipsed by bigger ones.  However, LDA topic modeling helped us to spot fictional topics and some trends in the evolution over time.
