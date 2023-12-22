@@ -226,7 +226,7 @@ Just like in the direct comparison of topic sentiments, magic movies score high.
 
 ## Conclusion
 
-Our dive in people’s imagination comes to an end. 
+Our dive in people’s imagination comes to an end 🥺.
 
 We dealt with a small fictional movie summaries sample containing mainly recent occidental creations while Imagination breath caresses countless other fields.
 However, while trying to avoid as many pitfalls as possible, it has been possible to emphasize several fiction themes and their evolution over time. We saw the emergence of themes related to computers and the peak of outer space related movies at the dawn of space exploration.  Imagination is an extension of reality. 
