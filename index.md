@@ -201,6 +201,28 @@ PLOT
 
 ## Sentiment Analysis
 
+In the previous sections we learned a lot about how fictional worlds are portrayed by analyzing the topics of fictional movies. Through this, we also saw how the interest of people changed during the last century. But what feelings were conveyed by these fictional movies? To answer this question, we perform sentiment analysis on the movie summaries. First we look at the sentiment of fictional movies compared to non-fictional movies:
+
+[plot: comparison fiction and non-fiction over time]
+
+As we can see, fictional movies generally have a lower sentiment score when compared to non-fiction while still being above the neutral score of 0. This could mean that people like to imagine that things are worse than what is observed in reality.
+
+Comparing the sentiments of different topics of the previous analysis gives us an idea about the perspective people had on things. To do this, the average sentiment scores of every movie summary for each topic is plotted below.
+
+[plot sentiment of different topics]
+
+If we take a look at the sentiment of different topics, we see that movies with the topic magic have the highest sentiment score, followed by time travel. Certainly, magic and time travel would be highly convenient and seem to make life easier! Surprisingly, war movies do not have particularly low sentiment scores. On the other hand, movies about robots and outer space scored the lowest. When thinking about the vast amount of alien invasions or the classic movie ‘terminator’ this does seem to be plausible.
+
+To get indications for why certain topics scored low and others high and how their scores changed over time, we visualize the evolution of sentiment scores of all topics. In the plots, dashed lines indicate that the datapoint following the dashed line is computed with a low number of summaries and their value should be interpreted as highly uncertain.
+
+[plot sentiment of topics over time]
+
+Unfortunately, the dataset used did not contain enough summaries to plot meaningful evolutions of sentiment for all topics. Nevertheless, we can extract some interesting information. 
+Movies about outer space started with a high sentiment score and decreased during the period of the cold war. This seems to be unusual, because one would expect a lot of inspirational movies about space exploration during the space race successive moon landing of the americans. 
+Science movies started with low sentiment scores which gradually increased over time. Was science associated with hazards in earlier years?
+Sentiment scores of war movies follow the average score consistently, most likely due to a large number of fictional movies being war related. A dip for movies in the 50s can be related to the cold war.
+Just like in the direct comparison of topic sentiments, magic movies score high. The difference to the average sentiment of fictional movies does not change over time. So apparently magic really does make things just slightly better. What a shame that this topic is speculative fiction!
+
 
 ## Conclusion
 
