@@ -43,5 +43,22 @@ Our main object of study is to analyze the evolution of fictional worlds over ti
 ![avg_topics](/assets/img/Topic_avg.png)
 
 
+## Detecting Fictional topics
+To detect fictional topics, we used a Latent Dirichlet allocation (LDA) on movie summaries 
+
+### Topic modeling on the fictional subset
+In LDA method summaries are  bags of words and each topic is a probability distribution over words.
+Several manipulations were performed on the summaries in order to optimize the topic detection by keeping the words that carry the most information.
+Word normalization with lemmatization to gather words with close meanings
+Stop words removal   
+Proper nouns removal but keeping locations, events, dates
+This gives us a preprocessed substed of fictional summaries. 
+Two LDA parameters have been adjusted to consider a  low number of topics per document and a low number of words per topic. 
+
+A bias research ?
+Number of releases : As we saw before our subset is mainly composed of recent movies that can prevent 
+Summaries length : 
+
+After 1950, the mean number of words in the preprocessed summaries is more stable with a slight increase and variation of around 30 words. This is good news because it means that by performing a topic modeling on each decade after 1950, the results won't be biased by the number of words per summaries.
 
 
