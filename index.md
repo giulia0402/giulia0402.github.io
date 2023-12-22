@@ -109,7 +109,8 @@ PLOT
 
 This is nice but returned topics for each period are different(ie:different word distribution) and it is tricky to link topics over different periods. 
 
-PLOT
+![Raph](/assets/img/Raph.png)
+
 
 LDA topics are not clearly defined (words inconsistency in topics and  topics mixing) and we probably miss some topics, eclipsed by bigger ones.  However, LDA topic modeling helped us to spot fictional topics and some trends in the evolution over time.
 
@@ -199,8 +200,6 @@ A topic curve above the total fictional movies curve means that the specified to
 So what do those results tell us ?
 
 
-
-PLOT
 ![TopicsCount](/assets/img/TopicsCount.svg)
 
 ## Sentiment Analysis
@@ -213,7 +212,7 @@ As we can see, fictional movies generally have a lower sentiment score when comp
 
 Comparing the sentiments of different topics of the previous analysis gives us an idea about the perspective people had on things. To do this, the average sentiment scores of every movie summary for each topic is plotted below.
 
-[plot sentiment of different topics]
+![Cyril](/assets/img/Cyril.png)
 
 If we take a look at the sentiment of different topics, we see that movies with the topic magic have the highest sentiment score, followed by time travel. Certainly, magic and time travel would be highly convenient and seem to make life easier! Surprisingly, war movies do not have particularly low sentiment scores. On the other hand, movies about robots and outer space scored the lowest. When thinking about the vast amount of alien invasions or the classic movie ‘terminator’ this does seem to be plausible.
 
